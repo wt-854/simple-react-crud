@@ -1,0 +1,50 @@
+main {
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.error {
+  color: #bf1650;
+  font-size: 14px;
+}
+
+.line {
+  display: flex;
+  justify-content: "center";
+}
+
+.line-pad {
+  margin-right: 1em;
+}
